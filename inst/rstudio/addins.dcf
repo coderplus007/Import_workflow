@@ -1,0 +1,9 @@
+Name: Daten importieren und aufbereiten
+Description: Importiert Daten aus der Zwischenablage, bereinigt sie und erstellt eine formatierte Tabelle
+Binding: import_workflow
+Interactive: true
+
+Name: Import and prepare data
+Description: Imports data from clipboard, cleans it and creates a formatted table
+Binding: import_workflow_en
+Interactive: true
