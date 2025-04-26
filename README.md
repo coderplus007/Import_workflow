@@ -1,4 +1,4 @@
-# Import_workflow
+# ImportWorkflow
 
 Ein RStudio-Addin, das Daten aus der Zwischenablage importiert, aufbereitet und als formatierte Tabelle für wissenschaftliche Publikationen speichert.
 
@@ -37,7 +37,7 @@ if (!requireNamespace("devtools", quietly = TRUE)) {
   install.packages("devtools")
 }
 
-# Installieren Sie das Import_workflow-Paket
+# Installieren Sie das ImportWorkflow-Paket
 devtools::install_github("coderplus007/Import_workflow")
 ```
 
