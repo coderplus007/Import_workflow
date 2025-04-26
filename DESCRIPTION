@@ -1,4 +1,4 @@
-Package: Import_workflow
+Package: ImportWorkflow
 Type: Package
 Title: Addin 'Daten importieren und aufbereiten'
 Version: 0.1.0
