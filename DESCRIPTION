@@ -1,0 +1,25 @@
+Package: Import_workflow
+Type: Package
+Title: Addin 'Daten importieren und aufbereiten'
+Version: 0.1.0
+Author: Beat Meier [aut, cre] (<dev@olgameier.ch>)
+Description: Ein RStudio-Addin zum automatischen Import und Aufbereitung von Daten.
+    Das Addin liest Daten aus der Zwischenablage ein, bereinigt Spaltennamen, 
+    zeigt eine Übersicht mit 'skimr', erstellt eine formatierte Tabelle mit 'flextable' 
+    und speichert diese als Word-Datei 'Tabelle.docx'. 
+    Alle benötigten Pakete werden beim Programmstart falls nötig automatisch installiert.
+    Das Addin erkennt automatisch verschiedene Datenformate in der Zwischenablage.
+    Nach Abschluss wird eine freundliche Nachricht ausgegeben.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    janitor,
+    skimr,
+    flextable,
+    officer,
+    clipr,
+    rstudioapi,
+    utils,
+    readr
+RoxygenNote: 7.2.3
